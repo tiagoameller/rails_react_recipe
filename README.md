@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is may onw version of the tutorial: [How To Set Up a Ruby on Rails Project with a React Frontend](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-project-with-a-react-frontend)
 
-Things you may want to cover:
+I fixed some **Rails** issues to make the backend part more confortable to my opinion.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In this tutorial fronted is rendered using React routes and Rails backend is totally API based
