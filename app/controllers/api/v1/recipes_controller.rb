@@ -1,7 +1,8 @@
 module Api
   module V1
     class RecipesController < ApplicationController
-      skip_before_action :verify_authenticity_token
+      # this is longer necessary: see comments in app/javascript/components/NewRecipe.jsx
+      # skip_before_action :verify_authenticity_token
       before_action :fetch_recipe, only: [:show, :destroy]
 
       def index
