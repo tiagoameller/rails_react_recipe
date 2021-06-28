@@ -52,7 +52,7 @@ class Recipes extends React.Component {
     return (
       <>
         <section className="jumbotron jumbotron-fluid text-center">
-          <div className="container py-5">
+          <div className="container pt-5 pb-1">
             <h1 className="display-4">Recipes for every occasion</h1>
             <p className="lead text-muted">
               We’ve pulled together our most popular recipes, our latest
@@ -61,9 +61,9 @@ class Recipes extends React.Component {
             </p>
           </div>
         </section>
-        <div className="py-5">
+        <div>
           <main className="container">
-            <div className="text-right mb-3">
+            <div className="float-right mb-3">
               <Link to="/recipe" className="btn custom-button">
                 Create New Recipe
               </Link>
